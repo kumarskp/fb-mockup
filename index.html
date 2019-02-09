@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Facebook - log in or sign up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="https://www.facebook.com/" target="_blank" class="logo">facebook</a></h1>
+
+            <table class="login-container">
+                <tbody>
+                    <tr>
+                        <td><label for="username">Email or Phone</label></td>
+                        <td><label for="password">Password</label><br></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" type="username"> <br></td>
+                        <td><input type="password" name="password" type="password"></td>
+                        <td><button class="log-in">Log In</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#" class="forget-account">Forgotten account?</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </nav>
+    </header> <!--end of header-->
+    <section>
+            <div class="left-section">
+                <h3>Facebook helps you connect and share with the people in your life.</h3>
+                 <img src="img/fb-img.png" alt="facebook-img">
+            </div><!--end of left-section-->
+
+            <div class="right-section">
+                <h2 class="same-color">Create an account</h2>
+                <h3 class="same-color"> It's free and always will be.</h3>
+                <div class="create-account">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Surname" required> <br>
+                    <input type="email" placeholder="Mobile number or email address" required><br>
+                    <input type="password" placeholder="New password" required><br>
+                    <label for="birthday" style="margin-left:5px; color:#333; font-size:20px;"> Birthday:</label><br>
+                    <input type="date" name="birthday" style="color:#333;"> <a href="#" style="font-size:13px; text-decoration:none;">why do i need to provide my date of birth?</a><br>
+                    <input type="radio" name="female" value="female"><span style="font-size:22px; color:#333;"> female</span>
+                    <input type="radio" name="male" value="male"><span style="font-size:22px; color:#333;">male</span>
+                    <p class="agree" style="font-size:14px; margin-left:5px;" class="same-color">By clicking Sign Up, you agree to our<a href="#" style="text-decoration:none;"> Terms, Data Policy
+                    </a>and <a href="#" style="text-decoration:none;">Cookie Policy</a>. You may receive SMS
+                    notifications from us and can opt out at any time.</p>
+                    <input type="button" class="signup" name="signup" value="Sign up">
+                    <p class="last-para " > <a href="#">Create a Page</a> for a celebrity, band or business.</p>
+                </div>
+                
+            </div><!--end of right-section-->
+    </section>
+    
+</body>
+</html>

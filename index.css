@@ -1,0 +1,134 @@
+
+html, body{
+    margin:0;
+    box-sizing:border-box;
+}
+
+nav{
+    box-sizing: border-box;
+    background-color:#3b5998;
+    display:grid;
+    grid-template-columns:700px 1fr;
+    color:#fff;
+    padding:10px auto;
+    height: 82px;
+}
+.logo{
+    font-size:42px;
+    color:#fff;
+    margin-left:160px;
+}
+nav a {
+    text-decoration: none;
+}
+table{
+    font-size:14px;
+    border-spacing:5px;
+}
+table,td{
+    width:15%;
+    margin-left:80px;
+    padding:1px 10px;
+}
+.log-in{
+    width:60px;
+    background-color:#4267b2;
+    color:#fff;
+    border:1px solid #0e385f;
+    padding:3px 0;
+}
+.log-in:hover{
+    cursor:pointer;
+}
+
+.forget-account{
+    color:#9cb4d8;
+}
+.forget-account:hover{
+    text-decoration:underline;
+}
+section{
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns:1.1fr 1fr;
+    background-color:#f1f1f9;
+    height: 90vh;
+}
+.left-section{
+    font-size:20px;
+    font-weight:800;
+    color:#0e385f;
+    padding:20px 100px;
+}
+.left-section h3{
+    max-width:80%;
+    padding:5px 60px;
+}
+img{
+    padding:5px 10px;
+}
+
+.right-section{
+    max-width:80%;
+}
+
+.right-section h2{
+    font-size:36px;
+    color:#333;
+}
+.right-section h3{
+    color:#333;
+}
+.right-section input{
+    margin:5px;
+}
+.right-section input[type="text"]{
+    width:150px;
+    height:30px;
+    border:2px solid #ccc;
+    color:gray;
+    font-size:18px;
+    border-radius:5px;
+}
+.right-section input[type="email"]{
+    width:310px;
+    height:30px;
+    border:2px solid #ccc;
+    color:gray;
+    font-size:18px;
+    border-radius:5px;
+}
+.right-section input[type="password"] {
+    height:30px;
+    border:2px solid #ccc;
+    color:gray;
+    font-size:18px;
+    border-radius:5px;
+}
+.right-section input[type="radio"]{
+    color:#444;
+    font-size:18px;
+}
+.signup{
+    width:160px;
+    height:40px;
+    background-color:#41AE53;
+    color:#fef;
+    border-radius:5px;
+    font-size:20px;
+    padding:10px 14px;
+    transition:0.4s;
+
+}
+.signup:hover{
+    color:#fff;
+    cursor:pointer;
+}
+.last-para a{
+    text-decoration: none;
+    color:#4267b2;
+    font-weight:600;
+}
+.last-para{
+    color:#333;
+}
